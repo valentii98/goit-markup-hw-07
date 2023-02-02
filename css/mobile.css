@@ -1,13 +1,6 @@
-/* .header {
-    background-color: var(--nav-background-color);
-    padding: 24px 0px;
-    border-bottom: 1px solid #e7e9fc;
+@media screen and (min-width: 480px) {
+    .container {
+      width: 428px;
+      margin: 0 auto;
+    }
   }
-  
-  .header-item {
-    display: flex;
-  }
-  .header-navigation {
-    display: flex;
-  } */
-  

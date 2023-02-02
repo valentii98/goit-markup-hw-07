@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/mobile.css" />
     <link rel="stylesheet" href="./css/tablet.css" />
-    <link rel="stylesheet" href="./css/desktope.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body>
     <header class="header">
@@ -52,66 +52,71 @@
         <a class="logo" href="index.html">
           <span class="logo-web">Web</span>Studio</a
         >
-        <button class="mobile-menu-button" type="button" data-modal-open>
+        <button class="mobile-menu-button" type="button" data-menu-open>
           <svg class="menu-open" width="30" height="19">
-            <use  href="./images/icons.svg#icon-menu-open"></use>
+            <use href="./images/icons.svg#icon-menu-open"></use>
           </svg>
         </button>
       </nav>
-      <div class="mobile-menu visually-hidden">
-        <button class="modal-button" type="button" data-modal-close>
+      <div class="mobile-menu visually-hidden" data-menu>
+        <button class="modal-button" type="button" data-menu-close>
           <svg class="butoon-icon" width="8px" height="8px">
             <use href="./images/icons.svg#icon-x"></use>
           </svg>
         </button>
-        <ul class="navigation-link">
-          <li><a class="mobile-header-list current" href="index.html">Studio</a></li>
-          <li><a class="mobile-header-list" href="portfolio.html">Portfolio</a></li>
-          <li><a class="mobile-header-list" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <ul class="contacts-link">
-        <li>
-          <a class="header-contacts" href="tel:+110001111111"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-        <li>
-          <a class="header-contacts" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-      </ul>
-      <ul class="header-social-list list">
-        <li class="header-social-item">
-          <a href="" class="header-social-link">
-            <svg class="header-social-icon" width="24px" height="24px">
-              <use href="./images/icons.svg#icon-instagram-2"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="header-social-item">
-          <a href="" class="header-social-link">
-            <svg class="header-social-icon" width="24px" height="19.5px">
-              <use href="./images/icons.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="header-social-item">
-          <a href="" class="header-social-link">
-            <svg class="header-social-icon" width="24px" height="24px">
-              <use href="./images/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="header-social-item">
-          <a href="" class="header-social-link">
-            <svg class="header-social-icon" width="24px" height="24px">
-              <use href="./images/icons.svg#icon-linkedin"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
+        <div>
+          <ul class="mobile-navigation-link list">
+            <li><a class="mobile-header-list" href="index.html">Studio</a></li>
+            <li>
+              <a class="mobile-header-list" href="portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="mobile-header-list current" href="">Contacts</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul class="mobile-contacts list">
+            <li class="menu-tel">
+              <a class="tel-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a class="email-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="header-social-list list">
+            <li class="header-social-item">
+              <a href="" class="header-social-link">
+                <svg class="header-social-icon" width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-social-item">
+              <a href="" class="header-social-link">
+                <svg class="header-social-icon" width="24px" height="19.5px">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-social-item">
+              <a href="" class="header-social-link">
+                <svg class="header-social-icon" width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-social-item">
+              <a href="" class="header-social-link">
+                <svg class="header-social-icon" width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -178,7 +183,7 @@
           </ul>
         </div>
       </section>
-     <!--  <section class="img-section">
+      <section class="img-section">
         <div class="container">
           <h2 class="title">What are we doing</h2>
           <ul class="list">
@@ -436,7 +441,7 @@
     </main>
     <footer class="footer">
       <div class="footer-block container">
-        <div>
+        <div class=" footer-logo-text" >
           <a class="footer-logo" href="index.html">
             <span class="logo-web">Web</span>Studio</a
           >
@@ -481,7 +486,7 @@
         <div class="footer-subscribe">
           <h4 class="footer-title">Subscribe</h4>
           <form class="footer-form">
-            <input
+            <input 
               aria-label="input mail"
               class="footer-mail-input"
               type="email"
@@ -565,7 +570,8 @@
           <button class="send-button" type="submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

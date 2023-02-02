@@ -1,4 +1,29 @@
-.navigation-link {
+@media screen and (min-width: 768px) {
+  .container {
+    width: 552px;
+    margin: 0 auto;
+  }
+  .mobile-header{
+    display: none;
+  }
+  .header > .container {
+    width: 736px;
+  }
+  .header {
+    display: block;
+    background-color: var(--nav-background-color);
+    padding: 24px 16px 10px 16px;
+    border-bottom: 1px solid #e7e9fc;
+  }
+  
+  .header-item {
+    display: flex;
+  }
+  .header-navigation {
+    display: flex;
+  }
+  
+  .navigation-link {
     display: flex;
     list-style: none;
     gap: 40px;
@@ -34,15 +59,14 @@
     color: var(--enable-btn-color);
   }
   .contacts-link {
-    display: flex;
     list-style: none;
     gap: 40px;
     margin-left: auto;
   }
   .header-contacts {
     text-decoration: none;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.33;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     transition-property: color;
@@ -53,3 +77,79 @@
   .header-contacts:focus {
     color: var(--enable-btn-color);
   }
+  .advantages > .container {
+    width: 735px;
+  }
+  .advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .advantages-item {
+    max-width: calc((100% - 24px) / 2);
+  }
+  .advantages-title {
+    text-align: left;
+  }
+  .team-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+  }
+  .customer-list {
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+  .customer-logo {
+    width: calc((100% - 48px) / 3);
+  }
+  .modal{
+    width: 408px ;
+  }
+  .footer-block{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .footer-logo-text{
+    text-align: left;
+  }
+  .footer-title{
+    margin-top: 0px;
+  }
+  .footer-subscribe{
+    text-align: left;
+  }
+  .footer-form{
+    display: flex;
+    
+  }
+.footer-form > input{
+    width: 264px;
+    margin-right: 24px;
+}
+.button{
+    max-height: 40px;
+}
+.main-section > .container{
+    width: 736px;
+}
+.button-list{
+    justify-content: center;
+}
+.card-list{
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px ;
+row-gap: 72px ;
+}
+.project-card{
+    margin-top: 0px;
+    max-width: 356px;
+}
+}
+
