@@ -3,7 +3,7 @@
     width: 552px;
     margin: 0 auto;
   }
-  .mobile-header{
+  .mobile-header {
     display: none;
   }
   .header > .container {
@@ -15,14 +15,14 @@
     padding: 24px 16px 10px 16px;
     border-bottom: 1px solid #e7e9fc;
   }
-  
+
   .header-item {
     display: flex;
   }
   .header-navigation {
     display: flex;
   }
-  
+
   .navigation-link {
     display: flex;
     list-style: none;
@@ -77,6 +77,35 @@
   .header-contacts:focus {
     color: var(--enable-btn-color);
   }
+  .hero {
+    padding-top: 111px;
+    padding-bottom: 108px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-tab.jpg);
+    max-width: 100%;
+    max-height: 436px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-tab2x.jpg);
+    }
+  }
+  .hero-title {
+    max-width: 496px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+  }
   .advantages > .container {
     width: 735px;
   }
@@ -93,7 +122,7 @@
   .advantages-title {
     text-align: left;
   }
-  .team-list{
+  .team-list {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 64px 24px;
@@ -105,51 +134,49 @@
   .customer-logo {
     width: calc((100% - 48px) / 3);
   }
-  .modal{
-    width: 408px ;
+  .modal {
+    width: 408px;
   }
-  .footer-block{
+  .footer-block {
     display: flex;
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
   }
-  .footer-logo-text{
+  .footer-logo-text {
     text-align: left;
   }
-  .footer-title{
+  .footer-title {
     margin-top: 0px;
   }
-  .footer-subscribe{
+  .footer-subscribe {
     text-align: left;
   }
-  .footer-form{
+  .footer-form {
     display: flex;
-    
   }
-.footer-form > input{
+  .footer-form > input {
     width: 264px;
     margin-right: 24px;
-}
-.button{
+  }
+  .button {
     max-height: 40px;
-}
-.main-section > .container{
+  }
+  .main-section > .container {
     width: 736px;
-}
-.button-list{
+  }
+  .button-list {
     justify-content: center;
-}
-.card-list{
+  }
+  .card-list {
     margin-top: 64px;
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px ;
-row-gap: 72px ;
-}
-.project-card{
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .project-card {
     margin-top: 0px;
     max-width: 356px;
+  }
 }
-}
-

@@ -1,6 +1,9 @@
 @media screen and (min-width: 480px) {
-    .container {
-      width: 428px;
-      margin: 0 auto;
-    }
+  .container {
+    width: 428px;
+    margin: 0 auto;
   }
+  .modal {
+    width: 392px;
+  }
+}
