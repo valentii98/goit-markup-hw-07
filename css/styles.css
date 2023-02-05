@@ -309,9 +309,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--disable-btn-color);
 }
-
-.footer-title {
+.social-media{
   margin-top: 72px;
+}
+.footer-subscribe{
+  margin-top: 72px;
+}
+.footer-title {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -430,12 +434,14 @@ body {
 }
 
 .tel-link {
+  text-decoration: none;
   font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
   color: var(--accent-text-color);
 }
 .email-link {
+  text-decoration: none;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.11;
