@@ -1,6 +1,7 @@
 @media screen and (min-width: 768px) {
   .container {
-    width: 552px;
+    width: 582px;
+    padding: 0 15px; 
  margin: 0 auto; 
   }
   .mobile-header {
@@ -10,9 +11,10 @@
     width: 736px;
   }
   .header {
+    
     display: block;
     background-color: var(--nav-background-color);
-    padding: 24px 16px 6px 16px;
+    padding: 24px 0px 6px 0px;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -89,7 +91,6 @@ flex-direction: column;
       ),
       url(../images/hero-tab.jpg);
     max-width: 100%;
-    max-height: 436px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -109,6 +110,9 @@ flex-direction: column;
     line-height: 1.07;
     letter-spacing: 0.02em;
   }
+  .advantages{
+    padding: 96px 0px;
+  }
   .advantages > .container {
     width: 735px;
   }
@@ -125,11 +129,16 @@ flex-direction: column;
   .advantages-title {
     text-align: left;
   }
-  
+  .team-section{
+    padding: 96px 0px;
+  }
   .team-list {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 64px 24px;
+  }
+  .customers{
+    padding: 96px 0px;
   }
   .customer-list {
     row-gap: 64px;
@@ -143,6 +152,9 @@ flex-direction: column;
   }
   .social-media{
     margin-top: 0px;
+  }
+  .footer{
+    padding: 96px 0px;
   }
   .footer-subscribe{
     margin-top: 0px;
