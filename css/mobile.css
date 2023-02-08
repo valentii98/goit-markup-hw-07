@@ -6,4 +6,7 @@
   .modal {
     width: 392px;
   }
+  .header-social-list {
+    gap: 56px;
+  }
 }

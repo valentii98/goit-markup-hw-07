@@ -7,7 +7,6 @@
 .header > .container {
     width: 1158px;
   } 
-
   .header {
     padding: 24px 0px;
   }
@@ -44,6 +43,7 @@ line-height: 1,5;
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
+    background-size: cover;
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
@@ -68,7 +68,7 @@ line-height: 1,5;
     justify-content: center;
   }
   .advantages-item {
-    max-width: calc((100% - 74px) / 4);
+    width: calc((100% - 72px) / 4);
   }
   .advantages-title {
     font-size: 20px;
@@ -113,7 +113,7 @@ line-height: 1,5;
     margin-right: 80px;
   }
   .main-section > .container {
-    width: 1128px;
+    width: 1158px;
   }
   .main-section {
     padding-top: 96px;

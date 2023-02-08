@@ -303,7 +303,7 @@ body {
   max-width: 268px;
   margin: 0 auto;
   margin-top: 16px;
-
+text-align: start;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -451,7 +451,7 @@ body {
   margin-top: 48px;
   display: flex;
   flex-wrap: wrap;
-  gap: 56px;
+  gap: 25px;
 }
 .header-social-item {
   width: 40px;
